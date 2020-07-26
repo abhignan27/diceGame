@@ -4,17 +4,17 @@ console.log("Player 1 ->"+" "+randomNumber1);
 
 var x1 = document.querySelector(".img1");
 if (randomNumber1 === 1){
-    x1.setAttribute("src", "images/dice1.png");
+    x1.setAttribute("src", "dice1.png");
 } else if (randomNumber1 === 2){
-    x1.setAttribute("src", "images/dice2.png");
+    x1.setAttribute("src", "dice2.png");
 } else if (randomNumber1 === 3){
-    x1.setAttribute("src", "images/dice3.png");
+    x1.setAttribute("src", "dice3.png");
 } else if (randomNumber1 === 4){
-    x1.setAttribute("src", "images/dice4.png");
+    x1.setAttribute("src", "dice4.png");
 } else if (randomNumber1 === 5){
-    x1.setAttribute("src", "images/dice5.png");
+    x1.setAttribute("src", "dice5.png");
 } else if (randomNumber1 === 6){
-    x1.setAttribute("src", "images/dice6.png");
+    x1.setAttribute("src", "dice6.png");
 } 
 
 var randomNumber2 = Math.random();
@@ -23,17 +23,17 @@ console.log("Player 2 ->"+" "+randomNumber2);
 
 var x2 = document.querySelector(".img2");
 if (randomNumber2 === 1){
-    x2.setAttribute("src", "images/dice1.png");
+    x2.setAttribute("src", "dice1.png");
 } else if (randomNumber2 === 2){
-    x2.setAttribute("src", "images/dice2.png");
+    x2.setAttribute("src", "dice2.png");
 } else if (randomNumber2 === 3){
-    x2.setAttribute("src", "images/dice3.png");
+    x2.setAttribute("src", "dice3.png");
 } else if (randomNumber2 === 4){
-    x2.setAttribute("src", "images/dice4.png");
+    x2.setAttribute("src", "dice4.png");
 } else if (randomNumber2 === 5){
-    x2.setAttribute("src", "images/dice5.png");
+    x2.setAttribute("src", "dice5.png");
 } else if (randomNumber2 === 6){
-    x2.setAttribute("src", "images/dice6.png");
+    x2.setAttribute("src", "dice6.png");
 } 
 
 var h = document.querySelector("h1");
